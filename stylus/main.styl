@@ -157,39 +157,35 @@ body
         margin 0 15px 0
 
 .discover
-  width 84%
   margin auto
   .column
     flex-direction column
     .jumbotron
-      margin auto
+      margin 7% auto
       h3
+        margin 0
         color white
-  .discover-images
-    display flex
-    align-items center
-    justify-content center
-    position relative
-    min-height 800px
-    .first-img,
-    .second-img,
-    .third-img
-      position absolute
-      top 0
-    .first-img
-      left 0
-      &:hover
-        transform(scale(1.1), translate(500px, 0))
-    .second-img
-      left 0
-      right 0
-      margin 7% auto 0 auto
-      z-index 9
-    .third-img
-      right 0
-  .transparent-btn
-    margin  0 0 125px 0
+  p > a
+    margin 10% 0
 
+.discover-images
+  ul
+    position relative
+  .hover-effect
+    position absolute
+    top -20%
+    left -1.5%
+    right 0
+    margin auto
+    transform(scale(0.75))
+    transition(all 0.3s ease-in-out)
+  .phone-animation
+    &:hover .hover-effect
+      transform(scale(1), rotate(360deg))
+      box-shadow(0 2px 40px 3px rgba(255, 255, 255, 0.2))
+      border-radius 10px
+  .second-img
+      margin-top -30%
 
 .footer
   .container

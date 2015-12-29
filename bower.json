@@ -1,0 +1,21 @@
+{
+  "name": "Homeworck13",
+  "homepage": "https://github.com/kina4smile/Coeluso-HW",
+  "authors": [
+    "Kina4smile <kina.girl@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flexboxgrid": "~6.3.0"
+  }
+}
